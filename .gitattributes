@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.phar binary
+*.tar.gz binary
+/tests export-ignore
+/.github export-ignore
+/tools export-ignore
+/docs export-ignore

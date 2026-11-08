@@ -1,0 +1,31 @@
+name: Check request
+description: Suggest a new security check
+labels: [check-request]
+body:
+  - type: textarea
+    id: risk
+    attributes:
+      label: What risk should be detected?
+      description: The misconfiguration or exposure, and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: detect
+    attributes:
+      label: How can it be detected read-only?
+      description: Setting, table/column, file… (no exploitation, no login attempts)
+  - type: textarea
+    id: fix
+    attributes:
+      label: How is it fixed?
+      description: Menu path or command an administrator should follow.
+  - type: input
+    id: versions
+    attributes:
+      label: Affected GLPI versions
+      placeholder: "10.0, 11.0"
+  - type: textarea
+    id: refs
+    attributes:
+      label: References
+      description: Documentation, advisories, articles.

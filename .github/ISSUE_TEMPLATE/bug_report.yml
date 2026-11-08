@@ -1,0 +1,46 @@
+name: Bug report
+description: Something does not work as expected (wrong finding, crash, display issue)
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! **Do not paste passwords, tokens, hashes or full reports with personal data.**
+        Security vulnerabilities in GLPI Guard: use private vulnerability reporting (Security tab), not an issue.
+  - type: input
+    id: version
+    attributes:
+      label: GLPI Guard version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Used as
+      options: [GLPI plugin, CLI (phar), CLI (source)]
+    validations:
+      required: true
+  - type: input
+    id: glpi
+    attributes:
+      label: GLPI, PHP and database versions
+      placeholder: "GLPI 11.0.8, PHP 8.3, MariaDB 10.11"
+    validations:
+      required: true
+  - type: input
+    id: check
+    attributes:
+      label: Check ID (if relevant)
+      placeholder: "GG-B03"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output / error (redact anything sensitive)
+      render: text

@@ -1,0 +1,7 @@
+/dist/
+/.ref/
+/vendor/
+/PROJE.md
+*.html
+.DS_Store
+Thumbs.db

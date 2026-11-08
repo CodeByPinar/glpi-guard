@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vulnerability in GLPI itself
+    url: https://github.com/glpi-project/glpi/security/advisories/new
+    about: Report GLPI vulnerabilities privately to the GLPI team.
+  - name: Vulnerability in GLPI Guard
+    url: https://github.com/CodeByPinar/glpi-guard/security/advisories/new
+    about: Report privately; please do not open a public issue.

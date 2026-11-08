@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['7.4', '8.1', '8.2', '8.3', '8.4']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: mysqli, mbstring, json
+          ini-values: phar.readonly=0
+          coverage: none
+      - name: Lint
+        run: find src bin tests tools front -name '*.php' -print0 | xargs -0 -n1 php -l > /dev/null && php -l bin/glpi-guard && php -l setup.php && php -l hook.php
+      - name: Tests
+        run: php tests/run.php
+      - name: Build phar and plugin archive
+        run: php tools/build-phar.php && php dist/glpi-guard.phar --version && php dist/glpi-guard.phar checks && php tools/build-plugin.php

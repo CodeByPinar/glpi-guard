@@ -1,0 +1,60 @@
+{
+    "generated": "2026-11-08",
+    "source": "test fixture",
+    "glpi": [
+        {
+            "id": "GHSA-test-0001",
+            "cve": "CVE-2026-0001",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Test: SQL injection",
+            "published": "2026-10-07",
+            "url": "https://github.com/advisories/GHSA-test-0001",
+            "affected": [
+                {"range": ">= 9.2.0, < 11.0.0", "patched": ["10.0.28"]},
+                {"range": ">= 11.0.0", "patched": ["11.0.10"]}
+            ]
+        },
+        {
+            "id": "GHSA-test-0002",
+            "cve": null,
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Test: stored XSS",
+            "published": "2026-09-01",
+            "url": "https://github.com/advisories/GHSA-test-0002",
+            "affected": [
+                {"range": ">= 11.0.0, < 11.0.9", "patched": ["11.0.9"]}
+            ]
+        },
+        {
+            "id": "GHSA-test-0003",
+            "cve": null,
+            "severity": "critical",
+            "cvss": 9.8,
+            "summary": "Test: old RCE",
+            "published": "2022-01-10",
+            "url": "https://github.com/advisories/GHSA-test-0003",
+            "affected": [
+                {"range": "< 9.5.7", "patched": ["9.5.7"]}
+            ]
+        }
+    ],
+    "plugins": {
+        "fields": {
+            "repo": "pluginsGLPI/fields",
+            "advisories": [
+                {
+                    "id": "GHSA-test-0101",
+                    "cve": null,
+                    "severity": "high",
+                    "cvss": null,
+                    "summary": "Test: fields SQL injection",
+                    "published": "2025-03-01",
+                    "url": "https://github.com/advisories/GHSA-test-0101",
+                    "affected": [{"range": "< 1.21.22", "patched": ["1.21.22"]}]
+                }
+            ]
+        }
+    }
+}

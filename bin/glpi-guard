@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+if (PHP_VERSION_ID < 70400) {
+    fwrite(STDERR, "glpi-guard needs PHP 7.4 or later.\n");
+    exit(2);
+}
+
+spl_autoload_register(static function (string $class): void {
+    if (strpos($class, 'GlpiGuard\\') !== 0) {
+        return;
+    }
+    $file = dirname(__DIR__) . '/src/' . str_replace('\\', '/', substr($class, 10)) . '.php';
+    if (is_file($file)) {
+        require $file;
+    }
+});
+
+exit(GlpiGuard\Cli::main($argv));

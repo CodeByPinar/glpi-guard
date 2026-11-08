@@ -1,0 +1,27 @@
+{
+    "name": "codebypinar/glpi-guard",
+    "description": "Read-only security audit for your own GLPI installation: known vulnerabilities, default accounts, risky configuration, exposed files — with a fix for every finding.",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "keywords": ["glpi", "security", "audit", "itsm", "hardening", "vulnerability", "cve"],
+    "authors": [
+        {"name": "Pınar Topuz", "homepage": "https://github.com/CodeByPinar"}
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-mysqli": "*"
+    },
+    "suggest": {
+        "ext-mbstring": "Turkish text formatting"
+    },
+    "autoload": {
+        "psr-4": {"GlpiGuard\\": "src/"}
+    },
+    "bin": ["bin/glpi-guard"],
+    "scripts": {
+        "test": "php tests/run.php",
+        "build": "php -d phar.readonly=0 tools/build-phar.php",
+        "advisories": "php tools/fetch-advisories.php"
+    }
+}
