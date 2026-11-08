@@ -93,6 +93,10 @@ function advisories(string $repo): array
 
 function slim(array $a): ?array
 {
+    // withdrawn advisories and placeholders ("Advisory to be removed", duplicates) would raise false alarms
+    if (!empty($a['withdrawn_at']) || preg_match('~to be removed|withdrawn|duplicate of~i', (string) ($a['summary'] ?? ''))) {
+        return null;
+    }
     $ranges = [];
     foreach ($a['vulnerabilities'] ?? [] as $v) {
         $range = trim((string) ($v['vulnerable_version_range'] ?? ''));

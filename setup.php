@@ -9,7 +9,7 @@
 
 use GlpiPlugin\Glpiguard\Menu;
 
-define('PLUGIN_GLPIGUARD_VERSION', '0.1.0');
+define('PLUGIN_GLPIGUARD_VERSION', '0.1.1');
 define('PLUGIN_GLPIGUARD_MIN_GLPI', '10.0.0');
 define('PLUGIN_GLPIGUARD_MAX_GLPI', '12.0.99');
 

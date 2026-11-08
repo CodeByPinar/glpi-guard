@@ -1866,21 +1866,6 @@
             ]
         },
         {
-            "id": "GHSA-xrm2-m72w-w4x4",
-            "cve": "CVE-2024-38370",
-            "severity": "low",
-            "cvss": null,
-            "summary": "Advisory to be removed",
-            "published": "2024-11-15",
-            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-xrm2-m72w-w4x4",
-            "affected": [
-                {
-                    "range": ">= 9.2.0",
-                    "patched": []
-                }
-            ]
-        },
-        {
             "id": "GHSA-p626-hph9-p6fj",
             "cve": "CVE-2024-37148",
             "severity": "high",

@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 — 2026-11-08
 
+- Complete advisory database: 210 GLPI advisories (2019 → today) and 29 plugin advisories; withdrawn/placeholder advisories are skipped so they cannot raise false alarms.
 - Docker image `ghcr.io/codebypinar/glpi-guard` (linux/amd64, linux/arm64), published by CI; `GG-A04` is skipped inside containers.
 - Composer / Packagist package `codebypinar/glpi-guard` (`composer global require`, `composer create-project` into `plugins/glpiguard`); CI runs `composer validate --strict`.
 
