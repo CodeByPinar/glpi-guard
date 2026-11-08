@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="26" viewBox="0 0 112 26" role="img" aria-label="checks: 25">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141C33"/><stop offset="1" stop-color="#0B1222"/></linearGradient></defs>
+<rect x=".5" y=".5" width="111" height="25" rx="12.5" fill="url(#b)" stroke="#2A3550"/>
+<rect x="75.0" y="3.5" width="28.9" height="19" rx="9.5" fill="#34D399" fill-opacity=".15"/>
+<g transform="translate(10 6) scale(.875)" fill="none" stroke="#34D399" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6.5"/><path d="m5 8.2 2 2 4-4.2"/></g>
+<text x="30" y="17" font-family="'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#94A3B8">checks</text>
+<text x="82.0" y="17" font-family="'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#34D399">25</text>
+</svg>

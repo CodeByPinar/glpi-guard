@@ -3,24 +3,22 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CodeByPinar/glpi-guard/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/CodeByPinar/glpi-guard/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/CodeByPinar/glpi-guard/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CodeByPinar/glpi-guard?include_prereleases&color=10b981&label=release"></a>
-  <img alt="GLPI 10 | 11 | 12" src="https://img.shields.io/badge/GLPI-10%20%7C%2011%20%7C%2012-1d4ed8">
-  <img alt="PHP 7.4+" src="https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white">
-  <img alt="25 checks" src="https://img.shields.io/badge/checks-25-0ea5e9">
-  <img alt="English | Türkçe" src="https://img.shields.io/badge/lang-EN%20%7C%20TR-f59e0b">
-  <a href="LICENSE"><img alt="License GPL-3.0-or-later" src="https://img.shields.io/badge/license-GPL--3.0--or--later-6366f1"></a>
+  <a href="#-the-plugin"><img src="docs/assets/ui/badge-glpi.svg" alt="GLPI 10 · 11 · 12" height="26"></a>
+  <a href="#-the-plugin"><img src="docs/assets/ui/badge-php.svg" alt="PHP 7.4+" height="26"></a>
+  <a href="#-what-it-checks"><img src="docs/assets/ui/badge-checks.svg" alt="25 checks" height="26"></a>
+  <a href="#-quick-start"><img src="docs/assets/ui/badge-mode.svg" alt="runs as plugin + CLI" height="26"></a>
+  <a href="#-türkçe"><img src="docs/assets/ui/badge-lang.svg" alt="English · Türkçe" height="26"></a>
 </p>
 
 <p align="center">
-  <b><a href="#-quick-start">Quick start</a></b> ·
-  <a href="#-what-it-checks">Checks</a> ·
-  <a href="#-screenshots">Screenshots</a> ·
-  <a href="#-how-it-works">How it works</a> ·
-  <a href="#-command-line">CLI</a> ·
-  <a href="#-faq">FAQ</a> ·
-  <a href="#-roadmap">Roadmap</a> ·
-  <a href="#-türkçe">Türkçe</a>
+  <a href="#-quick-start"><img src="docs/assets/ui/nav-quickstart.svg" alt="Quick start" height="36"></a>
+  <a href="#-what-it-checks"><img src="docs/assets/ui/nav-checks.svg" alt="Checks" height="36"></a>
+  <a href="#-screenshots"><img src="docs/assets/ui/nav-screenshots.svg" alt="Screenshots" height="36"></a>
+  <a href="#%EF%B8%8F-how-it-works"><img src="docs/assets/ui/nav-how.svg" alt="How it works" height="36"></a>
+  <a href="#-command-line"><img src="docs/assets/ui/nav-cli.svg" alt="CLI" height="36"></a>
+  <a href="#-faq"><img src="docs/assets/ui/nav-faq.svg" alt="FAQ" height="36"></a>
+  <a href="#%EF%B8%8F-roadmap"><img src="docs/assets/ui/nav-roadmap.svg" alt="Roadmap" height="36"></a>
+  <a href="#-türkçe"><img src="docs/assets/ui/nav-tr.svg" alt="Türkçe" height="36"></a>
 </p>
 
 ---

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="177" height="26" viewBox="0 0 177 26" role="img" aria-label="runs as: plugin + CLI">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141C33"/><stop offset="1" stop-color="#0B1222"/></linearGradient></defs>
+<rect x=".5" y=".5" width="176" height="25" rx="12.5" fill="url(#b)" stroke="#2A3550"/>
+<rect x="76.6" y="3.5" width="92.2" height="19" rx="9.5" fill="#22D3EE" fill-opacity=".15"/>
+<g transform="translate(10 6) scale(.875)" fill="none" stroke="#22D3EE" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 1.5v3M10 1.5v3"/><path d="M3.5 4.5h9v2.5a4.5 4.5 0 0 1-9 0Z"/><path d="M8 11.5v3"/></g>
+<text x="30" y="17" font-family="'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#94A3B8">runs as</text>
+<text x="83.6" y="17" font-family="'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#22D3EE">plugin + CLI</text>
+</svg>

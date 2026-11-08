@@ -184,3 +184,90 @@ if len(sys.argv) > 1:
         y += LH
     parts.append('</svg>\n')
     write('terminal.svg', '\n'.join(parts))
+
+
+# ---------------------------------------------------------------- badges & navigation (docs/assets/ui/)
+UI = os.path.join(OUT, 'ui')
+os.makedirs(UI, exist_ok=True)
+
+
+def text_w(s, size):
+    """rough text width for the sans stack (no font metrics available in plain SVG)"""
+    w = 0.0
+    for ch in s:
+        if ch in 'il.,:;|!\'1 ·':
+            w += 0.30
+        elif ch in 'fjrtI()[]':
+            w += 0.38
+        elif ch in 'mwMW':
+            w += 0.86
+        elif ch.isupper() or ch in '+#%&@':
+            w += 0.66
+        else:
+            w += 0.55
+    return w * size
+
+
+ICONS = {  # 16x16 stroke icons
+    'layers': '<path d="M8 2 1.5 5.5 8 9l6.5-3.5Z"/><path d="m1.5 8.5 6.5 3.5 6.5-3.5"/><path d="m1.5 11.5 6.5 3.5 6.5-3.5"/>',
+    'code': '<path d="m5.5 4-4 4 4 4"/><path d="m10.5 4 4 4-4 4"/><path d="m9 2.5-2 11"/>',
+    'check': '<circle cx="8" cy="8" r="6.5"/><path d="m5 8.2 2 2 4-4.2"/>',
+    'plug': '<path d="M6 1.5v3M10 1.5v3"/><path d="M3.5 4.5h9v2.5a4.5 4.5 0 0 1-9 0Z"/><path d="M8 11.5v3"/>',
+    'globe': '<circle cx="8" cy="8" r="6.5"/><path d="M1.5 8h13"/><path d="M8 1.5c2 2 2.8 4.2 2.8 6.5S10 12.5 8 14.5C6 12.5 5.2 10.3 5.2 8S6 3.5 8 1.5Z"/>',
+    'scale': '<path d="M8 2v12M4 14h8"/><path d="M3 4.5h10"/><path d="m3 4.5-2 4.5h4Z"/><path d="m13 4.5-2 4.5h4Z"/>',
+    'eye': '<path d="M1.5 8S4 3.5 8 3.5 14.5 8 14.5 8 12 12.5 8 12.5 1.5 8 1.5 8Z"/><circle cx="8" cy="8" r="2"/>',
+    'shield': '<path d="M8 1.5 13.5 3.5c0 5-2 8.6-5.5 11-3.5-2.4-5.5-6-5.5-11Z"/><path d="m5.6 8 1.7 1.7 3.2-3.4"/>',
+}
+
+
+def badge(name, icon, label, value, color):
+    fs = 11.5
+    lw, vw = text_w(label, fs) * 1.08, text_w(value, fs) * 1.18
+    x_l = 30
+    x_v = x_l + lw + 11
+    w = x_v + vw + 9 + 6
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w:.0f}" height="26" viewBox="0 0 {w:.0f} 26" role="img" aria-label="{escape(label)}: {escape(value)}">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141C33"/><stop offset="1" stop-color="#0B1222"/></linearGradient></defs>
+<rect x=".5" y=".5" width="{w - 1:.0f}" height="25" rx="12.5" fill="url(#b)" stroke="#2A3550"/>
+<rect x="{x_v - 7:.1f}" y="3.5" width="{vw + 14:.1f}" height="19" rx="9.5" fill="{color}" fill-opacity=".15"/>
+<g transform="translate(10 6) scale(.875)" fill="none" stroke="{color}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>
+<text x="{x_l}" y="17" font-family="{SANS}" font-size="{fs}" font-weight="600" fill="#94A3B8">{escape(label)}</text>
+<text x="{x_v:.1f}" y="17" font-family="{SANS}" font-size="{fs}" font-weight="700" fill="{color}">{escape(value)}</text>
+</svg>
+'''
+    with open(os.path.join(UI, name + '.svg'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write(svg)
+    print('docs/assets/ui/' + name + '.svg')
+
+
+for args in [
+    ('badge-glpi', 'layers', 'GLPI', '10 · 11 · 12', '#60A5FA'),
+    ('badge-php', 'code', 'PHP', '7.4+', '#A5B4FC'),
+    ('badge-checks', 'check', 'checks', '25', '#34D399'),
+    ('badge-mode', 'plug', 'runs as', 'plugin + CLI', '#22D3EE'),
+    ('badge-lang', 'globe', 'lang', 'EN · TR', '#FBBF24'),
+]:
+    badge(*args)
+
+
+def nav(name, label, primary=False):
+    fs = 13.5
+    tw = text_w(label, fs)
+    w = tw + (40 if primary else 32)
+    if primary:
+        body = (f'<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>'
+                f'<rect width="{w:.0f}" height="36" rx="18" fill="url(#p)"/>'
+                f'<text x="{w / 2:.1f}" y="23" text-anchor="middle" font-family="{SANS}" font-size="{fs}" font-weight="700" fill="#04111F">{escape(label)}</text>')
+    else:
+        body = (f'<rect x=".5" y=".5" width="{w - 1:.0f}" height="35" rx="17.5" fill="#0F172A" stroke="#2A3550"/>'
+                f'<text x="{w / 2:.1f}" y="23" text-anchor="middle" font-family="{SANS}" font-size="{fs}" font-weight="600" fill="#E2E8F0">{escape(label)}</text>')
+    svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:.0f}" height="36" viewBox="0 0 {w:.0f} 36" role="img" aria-label="{escape(label)}">{body}</svg>\n'
+    with open(os.path.join(UI, name + '.svg'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write(svg)
+    print('docs/assets/ui/' + name + '.svg')
+
+
+for n, l, p in [('nav-quickstart', 'Quick start  →', True), ('nav-checks', 'Checks', False), ('nav-screenshots', 'Screenshots', False),
+                ('nav-how', 'How it works', False), ('nav-cli', 'CLI', False), ('nav-faq', 'FAQ', False), ('nav-roadmap', 'Roadmap', False),
+                ('nav-tr', 'Türkçe', False)]:
+    nav(n, l, p)
