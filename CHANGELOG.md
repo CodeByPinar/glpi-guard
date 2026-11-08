@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Docker image `ghcr.io/codebypinar/glpi-guard` (linux/amd64, linux/arm64), published by CI; `GG-A04` is skipped inside containers.
+- Composer / Packagist package `codebypinar/glpi-guard` (`composer global require`, `composer create-project` into `plugins/glpiguard`); CI runs `composer validate --strict`.
 
 ## 0.1.0 — 2026-11-08
 

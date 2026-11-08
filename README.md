@@ -25,6 +25,7 @@
   <a href="https://hits.sh/github.com/CodeByPinar/glpi-guard/"><img alt="Views" src="https://hits.sh/github.com/CodeByPinar/glpi-guard.svg?label=views&color=34d399&labelColor=0b1222&style=flat-square"></a>
   <a href="https://github.com/CodeByPinar/glpi-guard/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/CodeByPinar/glpi-guard?style=flat-square&label=stars&labelColor=0b1222&color=fbbf24"></a>
   <a href="#-contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/CodeByPinar/glpi-guard?style=flat-square&label=contributors&labelColor=0b1222&color=60a5fa"></a>
+  <a href="https://packagist.org/packages/codebypinar/glpi-guard"><img alt="Packagist" src="https://img.shields.io/packagist/v/codebypinar/glpi-guard?style=flat-square&label=packagist&labelColor=0b1222&color=a78bfa"></a>
 </p>
 
 ---
@@ -118,6 +119,16 @@ php glpi-guard.phar scan /var/www/glpi
 
 Run it as a user that can read the GLPI directory (typically the web-server user). The database connection is read
 from GLPI's `config_db.php` — parsed as text, never executed.
+
+### With Composer
+
+```bash
+composer global require codebypinar/glpi-guard
+glpi-guard scan /var/www/glpi
+```
+
+Or install the plugin straight into GLPI: `composer create-project --no-dev codebypinar/glpi-guard /var/www/glpi/plugins/glpiguard`
+(then enable it in Setup › Plugins).
 
 ### With Docker
 
@@ -476,6 +487,9 @@ tablosuna yazar; kaldırınca tablo ve otomatik eylem silinir.
 php glpi-guard.phar scan /var/www/glpi --lang tr
 php glpi-guard.phar scan /var/www/glpi --lang tr --format html --output glpi-rapor.html
 php glpi-guard.phar scan /var/www/glpi --fail-on high   # CI: yüksek ve üstü bulguda çıkış kodu 1
+
+# Composer ile
+composer global require codebypinar/glpi-guard && glpi-guard scan /var/www/glpi --lang tr
 
 # Docker ile (PHP kurmadan)
 docker run --rm --network host -v /var/www/glpi:/glpi:ro ghcr.io/codebypinar/glpi-guard scan /glpi --lang tr

@@ -1,27 +1,53 @@
 {
     "name": "codebypinar/glpi-guard",
-    "description": "Read-only security audit for your own GLPI installation: known vulnerabilities, default accounts, risky configuration, exposed files — with a fix for every finding.",
-    "type": "project",
+    "description": "Read-only security audit for your own GLPI installation: known vulnerabilities, default accounts, risky configuration, exposed files - with a fix for every finding. GLPI plugin + CLI.",
+    "type": "library",
     "license": "GPL-3.0-or-later",
-    "keywords": ["glpi", "security", "audit", "itsm", "hardening", "vulnerability", "cve"],
+    "keywords": ["glpi", "glpi-plugin", "security", "security-audit", "security-scanner", "vulnerability-scanner", "hardening", "cve", "itsm", "audit", "cli"],
+    "homepage": "https://github.com/CodeByPinar/glpi-guard",
     "authors": [
-        {"name": "Pınar Topuz", "homepage": "https://github.com/CodeByPinar"}
+        {
+            "name": "Pınar Topuz",
+            "homepage": "https://github.com/CodeByPinar",
+            "role": "Maintainer"
+        }
     ],
+    "support": {
+        "issues": "https://github.com/CodeByPinar/glpi-guard/issues",
+        "source": "https://github.com/CodeByPinar/glpi-guard",
+        "security": "https://github.com/CodeByPinar/glpi-guard/security/policy",
+        "docs": "https://github.com/CodeByPinar/glpi-guard#readme"
+    },
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4 || ^8.0",
         "ext-json": "*",
         "ext-mysqli": "*"
     },
     "suggest": {
-        "ext-mbstring": "Turkish text formatting"
+        "ext-mbstring": "Turkish text formatting in reports"
     },
     "autoload": {
-        "psr-4": {"GlpiGuard\\": "src/"}
+        "psr-4": {
+            "GlpiGuard\\": "src/"
+        }
     },
     "bin": ["bin/glpi-guard"],
+    "archive": {
+        "exclude": ["/tests", "/tools", "/docs", "/.github", "/Dockerfile", "/.dockerignore"]
+    },
+    "config": {
+        "sort-packages": true
+    },
     "scripts": {
         "test": "php tests/run.php",
         "build": "php -d phar.readonly=0 tools/build-phar.php",
+        "build-plugin": "php tools/build-plugin.php",
         "advisories": "php tools/fetch-advisories.php"
+    },
+    "scripts-descriptions": {
+        "test": "Run the dependency-free test suite",
+        "build": "Build dist/glpi-guard.phar",
+        "build-plugin": "Build the installable GLPI plugin archive",
+        "advisories": "Rebuild data/advisories.json from GitHub Security Advisories"
     }
 }

@@ -23,6 +23,8 @@ jobs:
           extensions: mysqli, mbstring, json
           ini-values: phar.readonly=0
           coverage: none
+      - name: composer.json is valid for Packagist
+        run: composer validate --strict --no-check-lock
       - name: Lint
         run: find src bin tests tools front -name '*.php' -print0 | xargs -0 -n1 php -l > /dev/null && php -l bin/glpi-guard && php -l setup.php && php -l hook.php
       - name: Tests
