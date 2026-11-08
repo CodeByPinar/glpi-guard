@@ -1,0 +1,12 @@
+.git
+.github
+.ref
+dist
+docs
+tests
+tools
+front
+setup.php
+hook.php
+PROJE.md
+*.html

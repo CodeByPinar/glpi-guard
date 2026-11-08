@@ -119,6 +119,17 @@ php glpi-guard.phar scan /var/www/glpi
 Run it as a user that can read the GLPI directory (typically the web-server user). The database connection is read
 from GLPI's `config_db.php` — parsed as text, never executed.
 
+### With Docker
+
+```bash
+docker run --rm --network host -v /var/www/glpi:/glpi:ro ghcr.io/codebypinar/glpi-guard scan /glpi
+```
+
+The GLPI directory is mounted **read-only**; `--network host` lets the container reach a database on `localhost`.
+Debian-packaged GLPI keeps its configuration in `/etc/glpi`: add `-v /etc/glpi:/etc/glpi:ro`. Add `--format html`
+and redirect the output to get the HTML report. Inside a container the PHP-version check (`GG-A04`) is skipped,
+because the PHP that serves GLPI cannot be measured from there.
+
 ## 📸 Screenshots
 
 <p align="center"><b>Inside GLPI</b> — Setup › GLPI Guard</p>
@@ -465,6 +476,9 @@ tablosuna yazar; kaldırınca tablo ve otomatik eylem silinir.
 php glpi-guard.phar scan /var/www/glpi --lang tr
 php glpi-guard.phar scan /var/www/glpi --lang tr --format html --output glpi-rapor.html
 php glpi-guard.phar scan /var/www/glpi --fail-on high   # CI: yüksek ve üstü bulguda çıkış kodu 1
+
+# Docker ile (PHP kurmadan)
+docker run --rm --network host -v /var/www/glpi:/glpi:ro ghcr.io/codebypinar/glpi-guard scan /glpi --lang tr
 ```
 
 ### Katkıda bulunun

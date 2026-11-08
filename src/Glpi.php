@@ -190,7 +190,7 @@ class Glpi
     /** "cli" for the command line tool, "web" when running inside GLPI (plugin) */
     public function runtime(): string
     {
-        return 'cli';
+        return getenv('GLPI_GUARD_RUNTIME') === 'docker' ? 'docker' : 'cli';
     }
 
     public function now(): int

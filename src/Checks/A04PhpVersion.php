@@ -10,6 +10,7 @@ use GlpiGuard\Finding;
 use GlpiGuard\Glpi;
 use GlpiGuard\L;
 use GlpiGuard\Paths;
+use GlpiGuard\SkipException;
 
 /** PHP end of security support (data/php.json, from php.net/supported-versions). Measures the PHP running this tool. */
 final class A04PhpVersion extends Check
@@ -31,6 +32,9 @@ final class A04PhpVersion extends Check
 
     public function run(Glpi $g, Advisories $adv): array
     {
+        if ($g->runtime() === 'docker') {
+            throw new SkipException('running in a container: the PHP that serves GLPI cannot be measured (use the plugin or the phar on the server)');
+        }
         $eol = json_decode((string) @file_get_contents(Paths::data('php.json')), true)['security_until'] ?? [];
         $branch = PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION;
         $until = $eol[$branch] ?? null;

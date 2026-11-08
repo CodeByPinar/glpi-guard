@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## Unreleased
+
+- Docker image `ghcr.io/codebypinar/glpi-guard` (linux/amd64, linux/arm64), published by CI; `GG-A04` is skipped inside containers.
+
+## 0.1.0 — 2026-11-08
 
 - **GLPI plugin** (`glpiguard`, GLPI 10 / 11 / 12): Setup > GLPI Guard page for super-admins with grade, score,
   findings and fixes, "Scan now", history of the last 100 scans with score trend, HTML/JSON report download, weekly
