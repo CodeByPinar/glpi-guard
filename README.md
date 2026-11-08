@@ -21,6 +21,12 @@
   <a href="#-türkçe"><img src="docs/assets/ui/nav-tr.svg" alt="Türkçe" height="36"></a>
 </p>
 
+<p align="center">
+  <a href="https://hits.sh/github.com/CodeByPinar/glpi-guard/"><img alt="Views" src="https://hits.sh/github.com/CodeByPinar/glpi-guard.svg?label=views&color=34d399&labelColor=0b1222&style=flat-square"></a>
+  <a href="https://github.com/CodeByPinar/glpi-guard/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/CodeByPinar/glpi-guard?style=flat-square&label=stars&labelColor=0b1222&color=fbbf24"></a>
+  <a href="#-contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/CodeByPinar/glpi-guard?style=flat-square&label=contributors&labelColor=0b1222&color=60a5fa"></a>
+</p>
+
 ---
 
 **GLPI Guard** tells you, in one click or one command, how exposed your GLPI is — and exactly how to fix it.
@@ -398,6 +404,24 @@ tools/                              build scripts, advisory fetcher, README artw
 
 Writing a check takes a few minutes — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## 🤝 Contributors
+
+Thanks to everyone who helps make GLPI installations safer — code, checks, translations, bug reports and ideas
+all count.
+
+<p align="center">
+  <a href="https://github.com/CodeByPinar/glpi-guard/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=CodeByPinar/glpi-guard&max=48&columns=12" alt="Contributors of GLPI Guard">
+  </a>
+</p>
+
+Want to join? Pick an issue labelled
+[`check-request`](https://github.com/CodeByPinar/glpi-guard/issues?q=is%3Aissue+is%3Aopen+label%3Acheck-request),
+propose a new check with the [check request form](https://github.com/CodeByPinar/glpi-guard/issues/new/choose), or
+help with translations. Start with [CONTRIBUTING.md](CONTRIBUTING.md) — a new check is a single small PHP class.
+
+<sub>Contributor wall by <a href="https://contrib.rocks">contrib.rocks</a> · view counter by <a href="https://hits.sh">hits.sh</a> (counts README loads, no personal data).</sub>
+
 ## 🔐 Security
 
 Found a vulnerability **in GLPI or a plugin**? Report it privately to its maintainers, not here. Found one **in
@@ -442,5 +466,11 @@ php glpi-guard.phar scan /var/www/glpi --lang tr
 php glpi-guard.phar scan /var/www/glpi --lang tr --format html --output glpi-rapor.html
 php glpi-guard.phar scan /var/www/glpi --fail-on high   # CI: yüksek ve üstü bulguda çıkış kodu 1
 ```
+
+### Katkıda bulunun
+
+Yeni kontrol önerileri, hata bildirimleri, çeviriler ve kod katkıları memnuniyetle karşılanır. Başlamak için
+[CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakın; yeni bir kontrol tek bir küçük PHP sınıfıdır.
+Katkıda bulunanların listesi yukarıdaki [Contributors](#-contributors) bölümündedir.
 
 <p align="center"><sub>Made with care by <a href="https://github.com/CodeByPinar">@CodeByPinar</a> · if GLPI Guard helped you, a ⭐ helps others find it.</sub></p>
