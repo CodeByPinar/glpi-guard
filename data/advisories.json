@@ -1864,6 +1864,1899 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "GHSA-xrm2-m72w-w4x4",
+            "cve": "CVE-2024-38370",
+            "severity": "low",
+            "cvss": null,
+            "summary": "Advisory to be removed",
+            "published": "2024-11-15",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-xrm2-m72w-w4x4",
+            "affected": [
+                {
+                    "range": ">= 9.2.0",
+                    "patched": []
+                }
+            ]
+        },
+        {
+            "id": "GHSA-p626-hph9-p6fj",
+            "cve": "CVE-2024-37148",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Account takeover via SQL Injection in AJAX scripts",
+            "published": "2024-07-10",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-p626-hph9-p6fj",
+            "affected": [
+                {
+                    "range": ">= 0.84",
+                    "patched": [
+                        "10.0.16"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-cwvp-j887-m4xh",
+            "cve": "CVE-2024-37149",
+            "severity": "high",
+            "cvss": 7.2,
+            "summary": "Remote code execution through the plugin loader",
+            "published": "2024-07-10",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-cwvp-j887-m4xh",
+            "affected": [
+                {
+                    "range": ">= 0.85",
+                    "patched": [
+                        "10.0.16"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-f2cg-fc85-ffmh",
+            "cve": "CVE-2024-37147",
+            "severity": "medium",
+            "cvss": 4.3,
+            "summary": "Authenticated file upload to restricted tickets",
+            "published": "2024-07-10",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-f2cg-fc85-ffmh",
+            "affected": [
+                {
+                    "range": ">= 0.85",
+                    "patched": [
+                        "10.0.16"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-gcj4-2cp3-6h5j",
+            "cve": "CVE-2024-31456",
+            "severity": "high",
+            "cvss": 7.7,
+            "summary": "Authenticated SQL injection",
+            "published": "2024-05-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-gcj4-2cp3-6h5j",
+            "affected": [
+                {
+                    "range": ">= 9.3.0",
+                    "patched": [
+                        "10.0.15"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-8xvf-v6vv-r75g",
+            "cve": "CVE-2024-29889",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Account takeover via SQL Injection in saved searches feature",
+            "published": "2024-05-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-8xvf-v6vv-r75g",
+            "affected": [
+                {
+                    "range": "10.0.10",
+                    "patched": [
+                        "10.0.15"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-98qw-hpg3-2hpj",
+            "cve": "CVE-2024-27937",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Users emails enumeration",
+            "published": "2024-03-18",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-98qw-hpg3-2hpj",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.13"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-82vv-j9pr-qmwq",
+            "cve": "CVE-2024-27930",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Sensitive fields access through dropdowns",
+            "published": "2024-03-18",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-82vv-j9pr-qmwq",
+            "affected": [
+                {
+                    "range": ">= 0.78",
+                    "patched": [
+                        "10.0.13"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-rcxj-fqr4-q34r",
+            "cve": "CVE-2024-27914",
+            "severity": "medium",
+            "cvss": 5.3,
+            "summary": "Reflected XSS in debug mode",
+            "published": "2024-03-18",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-rcxj-fqr4-q34r",
+            "affected": [
+                {
+                    "range": ">= 10.0.8",
+                    "patched": [
+                        "10.0.13"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-prc3-cx5m-h5mj",
+            "cve": "CVE-2024-27104",
+            "severity": "medium",
+            "cvss": 4.5,
+            "summary": "Stored XSS in dashboards",
+            "published": "2024-03-18",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-prc3-cx5m-h5mj",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "10.0.13"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-2x8m-vrcm-2jqv",
+            "cve": "CVE-2024-27096",
+            "severity": "high",
+            "cvss": 7.7,
+            "summary": "SQL Injection through the search engine",
+            "published": "2024-03-18",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-2x8m-vrcm-2jqv",
+            "affected": [
+                {
+                    "range": ">= 0.65",
+                    "patched": [
+                        "10.0.13"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-92x4-q9w5-837w",
+            "cve": "CVE-2024-27098",
+            "severity": "medium",
+            "cvss": 6.4,
+            "summary": "Blind Server-Side Request Forgery (SSRF) using Arbitrary Object Instantiation",
+            "published": "2024-03-18",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-92x4-q9w5-837w",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "10.0.13"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-2gj5-qpff-ff3x",
+            "cve": "CVE-2024-23645",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Reflected XSS in reports pages",
+            "published": "2024-02-01",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-2gj5-qpff-ff3x",
+            "affected": [
+                {
+                    "range": ">= 0.65",
+                    "patched": [
+                        "10.0.12"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-p995-jmfv-c7r8",
+            "cve": "CVE-2023-51446",
+            "severity": "medium",
+            "cvss": 5.9,
+            "summary": "LDAP Injection during authentication",
+            "published": "2024-02-01",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-p995-jmfv-c7r8",
+            "affected": [
+                {
+                    "range": ">= 0.70",
+                    "patched": [
+                        "10.0.12"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-qc92-gxc6-5f95",
+            "cve": "CVE-2023-46726",
+            "severity": "high",
+            "cvss": 7.2,
+            "summary": "Remote code execution from LDAP server configuration form on PHP 7.4",
+            "published": "2023-12-13",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-qc92-gxc6-5f95",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.11"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-v799-2mp3-wgfr",
+            "cve": "CVE-2023-46727",
+            "severity": "high",
+            "cvss": 8.6,
+            "summary": "SQL injection through inventory agent request",
+            "published": "2023-12-13",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-v799-2mp3-wgfr",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.11"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-94c3-fw5r-3362",
+            "cve": "CVE-2023-43813",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Authenticated SQL Injection",
+            "published": "2023-12-13",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-94c3-fw5r-3362",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.11"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-rrh2-x4ch-pq3m",
+            "cve": "CVE-2023-42802",
+            "severity": "critical",
+            "cvss": 10,
+            "summary": "Unallowed PHP script execution",
+            "published": "2023-11-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-rrh2-x4ch-pq3m",
+            "affected": [
+                {
+                    "range": ">= 10.0.7",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-hm76-jh96-7j75",
+            "cve": "CVE-2023-42462",
+            "severity": "high",
+            "cvss": 7.7,
+            "summary": "File deletion through document upload process",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-hm76-jh96-7j75",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-x3jp-69f2-p84w",
+            "cve": "CVE-2023-42461",
+            "severity": "medium",
+            "cvss": 4.9,
+            "summary": "SQL injection in ITIL actors",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-x3jp-69f2-p84w",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-mv2r-gpw3-g476",
+            "cve": "CVE-2023-41320",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Account takeover via SQL Injection in UI layout preferences",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-mv2r-gpw3-g476",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-5wj6-hp4c-j5q9",
+            "cve": "CVE-2023-41326",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Account takeover via Kanban feature",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-5wj6-hp4c-j5q9",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-3fxw-j5rj-w836",
+            "cve": "CVE-2023-41321",
+            "severity": "medium",
+            "cvss": 4.9,
+            "summary": "Sensitive fields enumeration through API",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-3fxw-j5rj-w836",
+            "affected": [
+                {
+                    "range": ">= 9.1.1",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-9j8m-7563-8xvr",
+            "cve": "CVE-2023-41322",
+            "severity": "medium",
+            "cvss": 4.9,
+            "summary": "Privilege Escalation from technician to super-admin",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-9j8m-7563-8xvr",
+            "affected": [
+                {
+                    "range": ">= 9.1.0",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-58wj-8jhx-jpm3",
+            "cve": "CVE-2023-41324",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Account takeover through API",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-58wj-8jhx-jpm3",
+            "affected": [
+                {
+                    "range": ">= 9.3.0",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-5cf4-6q6r-49x9",
+            "cve": "CVE-2023-41323",
+            "severity": "medium",
+            "cvss": 5.3,
+            "summary": "Users login enumeration by unauthenticated user",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-5cf4-6q6r-49x9",
+            "affected": [
+                {
+                    "range": ">= 0.68",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-2hcg-75jj-hghp",
+            "cve": "CVE-2023-41888",
+            "severity": "medium",
+            "cvss": 5.3,
+            "summary": "Phishing through a login page malicious URL",
+            "published": "2023-09-26",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-2hcg-75jj-hghp",
+            "affected": [
+                {
+                    "range": ">= 10.0.8",
+                    "patched": [
+                        "10.0.10"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-46gp-f96h-53w4",
+            "cve": "CVE-2023-37278",
+            "severity": "medium",
+            "cvss": 6.8,
+            "summary": "SQL injection via dashboard administration",
+            "published": "2023-07-11",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-46gp-f96h-53w4",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "10.0.9"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-vf5h-jh9q-2gjm",
+            "cve": "CVE-2023-36808",
+            "severity": "high",
+            "cvss": 8.6,
+            "summary": "SQL injection through Computer Virtual Machine information",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-vf5h-jh9q-2gjm",
+            "affected": [
+                {
+                    "range": ">= 0.80",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-qrh8-rg45-45fw",
+            "cve": "CVE-2023-35940",
+            "severity": "high",
+            "cvss": 7.5,
+            "summary": "Unauthenticated access to Dashboard data",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-qrh8-rg45-45fw",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-gxh4-j63w-8jmm",
+            "cve": "CVE-2023-35924",
+            "severity": "high",
+            "cvss": 8.6,
+            "summary": "SQL injection via inventory agent request",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-gxh4-j63w-8jmm",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-p93p-pwg9-w95w",
+            "cve": "CVE-2023-34244",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Reflected XSS in search pages",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-p93p-pwg9-w95w",
+            "affected": [
+                {
+                    "range": ">= 9.4.0",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-cjcx-pwcx-v34c",
+            "cve": "CVE-2023-35939",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Unauthorized access to Dashboard data",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-cjcx-pwcx-v34c",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-966h-xrf5-pmj4",
+            "cve": "CVE-2023-34107",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Unauthorized access to knowledge base items",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-966h-xrf5-pmj4",
+            "affected": [
+                {
+                    "range": ">= 9.2.0",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-923r-hqh4-wj7c",
+            "cve": "CVE-2023-34106",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Unauthorized access to user data",
+            "published": "2023-07-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-923r-hqh4-wj7c",
+            "affected": [
+                {
+                    "range": ">= 0.68",
+                    "patched": [
+                        "10.0.8"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-9r84-jpg3-h4m6",
+            "cve": "CVE-2023-28849",
+            "severity": "high",
+            "cvss": 8.6,
+            "summary": "SQL injection and Stored XSS via inventory agent request",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-9r84-jpg3-h4m6",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-r93q-chh5-jgh4",
+            "cve": "CVE-2023-28639",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Reflected XSS in search pages",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-r93q-chh5-jgh4",
+            "affected": [
+                {
+                    "range": ">= 0.85",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-65gq-p8hg-7m92",
+            "cve": "CVE-2023-28852",
+            "severity": "medium",
+            "cvss": 4.5,
+            "summary": "Stored XSS through dashboard administration",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-65gq-p8hg-7m92",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-2c7r-gf38-358f",
+            "cve": "CVE-2023-28838",
+            "severity": "high",
+            "cvss": 7.7,
+            "summary": "SQL injection through dynamic reports",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-2c7r-gf38-358f",
+            "affected": [
+                {
+                    "range": ">= 0.50",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-7pwm-pg76-3q9x",
+            "cve": "CVE-2023-28632",
+            "severity": "high",
+            "cvss": 8.1,
+            "summary": "Account takeover by authenticated user",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-7pwm-pg76-3q9x",
+            "affected": [
+                {
+                    "range": ">= 0.83",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-55pm-mc2m-pq46",
+            "cve": "CVE-2023-28636",
+            "severity": "medium",
+            "cvss": 4.5,
+            "summary": "Stored XSS on external links",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-55pm-mc2m-pq46",
+            "affected": [
+                {
+                    "range": ">= 0.60",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-r57v-j88m-rwwf",
+            "cve": "CVE-2023-28633",
+            "severity": "low",
+            "cvss": 3.5,
+            "summary": "Blind Server-Side Request Forgery (SSRF) in RSS feeds",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-r57v-j88m-rwwf",
+            "affected": [
+                {
+                    "range": ">= 0.84",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-4279-rxmh-gf39",
+            "cve": "CVE-2023-28634",
+            "severity": "medium",
+            "cvss": 6.7,
+            "summary": "Privilege Escalation from technician to super-admin",
+            "published": "2023-04-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-4279-rxmh-gf39",
+            "affected": [
+                {
+                    "range": ">= 0.83",
+                    "patched": [
+                        "9.5.13",
+                        "10.0.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-6565-hm87-24hf",
+            "cve": "CVE-2023-23610",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Unauthorized access to data export",
+            "published": "2023-01-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-6565-hm87-24hf",
+            "affected": [
+                {
+                    "range": ">= 0.65",
+                    "patched": [
+                        "9.5.12",
+                        "10.0.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-3ghv-p34r-5ghx",
+            "cve": "CVE-2023-22500",
+            "severity": "high",
+            "cvss": 7.5,
+            "summary": "Unauthorized access to inventory files",
+            "published": "2023-01-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-3ghv-p34r-5ghx",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-352j-wr38-493c",
+            "cve": "CVE-2023-22722",
+            "severity": "medium",
+            "cvss": 4.8,
+            "summary": "XSS on browse views",
+            "published": "2023-01-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-352j-wr38-493c",
+            "affected": [
+                {
+                    "range": ">= 9.4.0",
+                    "patched": [
+                        "9.5.12",
+                        "10.0.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-f5g6-fxrw-pfj7",
+            "cve": "CVE-2023-22725",
+            "severity": "medium",
+            "cvss": 4.5,
+            "summary": "XSS on external links",
+            "published": "2023-01-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-f5g6-fxrw-pfj7",
+            "affected": [
+                {
+                    "range": ">=0.60",
+                    "patched": [
+                        "9.5.12",
+                        "10.0.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-x9g4-j85w-cmff",
+            "cve": "CVE-2023-22724",
+            "severity": "medium",
+            "cvss": 5.3,
+            "summary": "XSS in RSS Description Link",
+            "published": "2023-01-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-x9g4-j85w-cmff",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-qqqm-7h6v-7cf4",
+            "cve": "CVE-2022-41941",
+            "severity": "low",
+            "cvss": 2.4,
+            "summary": "XSS Stored inside Standard Interface Help Link href attribute",
+            "published": "2023-01-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-qqqm-7h6v-7cf4",
+            "affected": [
+                {
+                    "range": ">= 0.70",
+                    "patched": [
+                        "9.5.12",
+                        "10.0.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-6rh5-m5g7-327w",
+            "cve": "CVE-2022-39376",
+            "severity": "low",
+            "cvss": 2.6,
+            "summary": "Improper input validation on emails links",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-6rh5-m5g7-327w",
+            "affected": [
+                {
+                    "range": ">= 0.65",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-fxcx-93fq-8r9g",
+            "cve": "CVE-2022-39375",
+            "severity": "medium",
+            "cvss": 4.5,
+            "summary": "XSS through public RSS feed",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-fxcx-93fq-8r9g",
+            "affected": [
+                {
+                    "range": ">= 0.84",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-cw37-q82c-w546",
+            "cve": "CVE-2022-39373",
+            "severity": "low",
+            "cvss": 2.7,
+            "summary": "Stored XSS in entity name",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-cw37-q82c-w546",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-w7wc-728f-6mm8",
+            "cve": "CVE-2022-39371",
+            "severity": "high",
+            "cvss": 7.5,
+            "summary": "Stored XSS through asset inventory",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-w7wc-728f-6mm8",
+            "affected": [
+                {
+                    "range": ">= 10.0.0",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-5rj7-95qc-89h2",
+            "cve": "CVE-2022-39372",
+            "severity": "low",
+            "cvss": 3.5,
+            "summary": "Stored XSS in user information",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-5rj7-95qc-89h2",
+            "affected": [
+                {
+                    "range": ">= 0.70",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-rhcw-8r7g-8pwc",
+            "cve": "CVE-2022-39277",
+            "severity": "medium",
+            "cvss": 4.5,
+            "summary": "XSS in external links",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-rhcw-8r7g-8pwc",
+            "affected": [
+                {
+                    "range": ">= 0.60",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-8vwg-7x42-7v6p",
+            "cve": "CVE-2022-39276",
+            "severity": "low",
+            "cvss": 3.5,
+            "summary": "Blind Server-Side Request Forgery (SSRF) in RSS feeds and planning",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-8vwg-7x42-7v6p",
+            "affected": [
+                {
+                    "range": ">= 0.84",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-cp6q-9p4x-8hr9",
+            "cve": "CVE-2022-39323",
+            "severity": "high",
+            "cvss": 7.4,
+            "summary": "SQL Injection on REST API",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-cp6q-9p4x-8hr9",
+            "affected": [
+                {
+                    "range": ">= 9.1",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-4x48-q2wr-cpg4",
+            "cve": "CVE-2022-39262",
+            "severity": "medium",
+            "cvss": 5.2,
+            "summary": "Stored XSS on login page",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-4x48-q2wr-cpg4",
+            "affected": [
+                {
+                    "range": ">= 0.65",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-pgcx-mc58-3gmg",
+            "cve": "CVE-2022-39234",
+            "severity": "medium",
+            "cvss": 4.7,
+            "summary": "User's session persist after permanently deleting his account",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-pgcx-mc58-3gmg",
+            "affected": [
+                {
+                    "range": "<10.0.4",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-6c2p-wgx9-vrjc",
+            "cve": "CVE-2022-39370",
+            "severity": "medium",
+            "cvss": 4.3,
+            "summary": "Improper access to debug panel",
+            "published": "2022-11-03",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-6c2p-wgx9-vrjc",
+            "affected": [
+                {
+                    "range": ">= 0.70",
+                    "patched": [
+                        "10.0.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-rqgx-gqhp-x8vv",
+            "cve": "CVE-2022-36112",
+            "severity": "low",
+            "cvss": 3.5,
+            "summary": "Blind Server-Side Request Forgery (SSRF) in RSS feeds and planning",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-rqgx-gqhp-x8vv",
+            "affected": [
+                {
+                    "range": "<10.0.3",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-7p3q-cffg-c8xh",
+            "cve": "CVE-2022-35947",
+            "severity": "critical",
+            "cvss": 10,
+            "summary": "Authentication via SQL injection",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-7p3q-cffg-c8xh",
+            "affected": [
+                {
+                    "range": ">= 9.1",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-92q5-pfr8-r9r2",
+            "cve": "CVE-2022-35946",
+            "severity": "medium",
+            "cvss": 5.5,
+            "summary": "SQL injection through plugin controller",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-92q5-pfr8-r9r2",
+            "affected": [
+                {
+                    "range": ">= 0.72",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-c5gx-789q-5pcr",
+            "cve": "CVE-2022-35914",
+            "severity": "critical",
+            "cvss": 9.8,
+            "summary": "Command injection using a third-party library script",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-c5gx-789q-5pcr",
+            "affected": [
+                {
+                    "range": ">= 9.5.4 & < 10.0.3",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-43j5-xhvj-9236",
+            "cve": "CVE-2022-31187",
+            "severity": "medium",
+            "cvss": 6.5,
+            "summary": "Stored XSS through global search",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-43j5-xhvj-9236",
+            "affected": [
+                {
+                    "range": ">= 10.0.0 & < 10.0.3",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-6mmq-x3j2-677j",
+            "cve": "CVE-2022-31143",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Leak of sensitive informations through login page error",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-6mmq-x3j2-677j",
+            "affected": [
+                {
+                    "range": ">=9.5.0",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-jrgw-cx24-56x5",
+            "cve": "CVE-2022-35945",
+            "severity": "low",
+            "cvss": null,
+            "summary": "XSS through registration API",
+            "published": "2022-09-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-jrgw-cx24-56x5",
+            "affected": [
+                {
+                    "range": ">= 9.5.0 & <= 10.0.3",
+                    "patched": [
+                        "10.0.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-g4hm-6vfr-q3wg",
+            "cve": "CVE-2022-31068",
+            "severity": "medium",
+            "cvss": 5.3,
+            "summary": "Unauthenticated Sensitive Data Exposure on Refused Inventory Files",
+            "published": "2022-06-28",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-g4hm-6vfr-q3wg",
+            "affected": [
+                {
+                    "range": ">=10.0.0",
+                    "patched": [
+                        "10.0.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-9q9x-7xxh-w4cg",
+            "cve": "CVE-2022-31056",
+            "severity": "critical",
+            "cvss": 9.1,
+            "summary": "SQL injection with _actor parameter in assistance objects",
+            "published": "2022-06-28",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-9q9x-7xxh-w4cg",
+            "affected": [
+                {
+                    "range": ">=10.0.0",
+                    "patched": [
+                        "10.0.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-w2gc-v2gm-q7wq",
+            "cve": "CVE-2022-31061",
+            "severity": "critical",
+            "cvss": null,
+            "summary": "SQL injection on login page",
+            "published": "2022-06-28",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-w2gc-v2gm-q7wq",
+            "affected": [
+                {
+                    "range": ">= 9.3.0",
+                    "patched": [
+                        "9.5.8",
+                        "10.0.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-5w33-4wrx-8hvw",
+            "cve": "CVE-2022-29250",
+            "severity": "low",
+            "cvss": null,
+            "summary": "SQL injection on search pages",
+            "published": "2022-06-09",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-5w33-4wrx-8hvw",
+            "affected": [
+                {
+                    "range": "10.0.0",
+                    "patched": [
+                        "10.0.1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-33g2-m556-gccr",
+            "cve": "CVE-2022-24876",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Stored XSS on Kanban",
+            "published": "2022-06-09",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-33g2-m556-gccr",
+            "affected": [
+                {
+                    "range": "10.0.0",
+                    "patched": [
+                        "10.0.1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-9hg4-fpwv-gx78",
+            "cve": "CVE-2022-24868",
+            "severity": "low",
+            "cvss": null,
+            "summary": "XSS / open redirect via SVG file upload",
+            "published": "2022-04-21",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-9hg4-fpwv-gx78",
+            "affected": [
+                {
+                    "range": "<10.0.0",
+                    "patched": [
+                        "10.0.0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-p94c-8qp5-gfpx",
+            "cve": "CVE-2022-24869",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Cross Site CSS Injection",
+            "published": "2022-04-21",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-p94c-8qp5-gfpx",
+            "affected": [
+                {
+                    "range": ">= 0.90",
+                    "patched": [
+                        "10.0.0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-4r49-52q9-5fgr",
+            "cve": "CVE-2022-24867",
+            "severity": "low",
+            "cvss": null,
+            "summary": "LDAP password exposed on source code",
+            "published": "2022-04-21",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-4r49-52q9-5fgr",
+            "affected": [
+                {
+                    "range": "< 10.0.0",
+                    "patched": [
+                        "10.0.0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-6cj4-g839-gj5j",
+            "cve": "CVE-2022-21719",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Reflected XSS using reload button",
+            "published": "2022-01-27",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-6cj4-g839-gj5j",
+            "affected": [
+                {
+                    "range": "<=9.5.6",
+                    "patched": [
+                        "9.5.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-5hg4-r64r-rf83",
+            "cve": "CVE-2022-21720",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "SQL injection using custom CSS administration form",
+            "published": "2022-01-27",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-5hg4-r64r-rf83",
+            "affected": [
+                {
+                    "range": "< 9.5.7",
+                    "patched": [
+                        "9.5.7"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-xx66-v3g5-w825",
+            "cve": "CVE-2021-39211",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Disclosure of GLPI and server informations in telemetry endpoint",
+            "published": "2021-09-15",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-xx66-v3g5-w825",
+            "affected": [
+                {
+                    "range": ">= 9.2",
+                    "patched": [
+                        "9.5.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-6w9f-2m6g-5777",
+            "cve": "CVE-2021-39213",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "IP restriction on GLPI API Bypass with custom header injection",
+            "published": "2021-09-15",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-6w9f-2m6g-5777",
+            "affected": [
+                {
+                    "range": ">= 9.1",
+                    "patched": [
+                        "9.5.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-hwxq-4c5f-m4v2",
+            "cve": "CVE-2021-39210",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Autologin cookie accessible by scripts",
+            "published": "2021-09-15",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-hwxq-4c5f-m4v2",
+            "affected": [
+                {
+                    "range": "< 9.5.6",
+                    "patched": [
+                        "9.5.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-5qpf-32w7-c56p",
+            "cve": "CVE-2021-39209",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Bypassable CSRF protection",
+            "published": "2021-09-15",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-5qpf-32w7-c56p",
+            "affected": [
+                {
+                    "range": "< 9.5.6",
+                    "patched": [
+                        "9.5.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-4xfc-4v58-wjhh",
+            "cve": "CVE-2021-3486",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Xss Stored into Plugin metadata",
+            "published": "2021-04-14",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-4xfc-4v58-wjhh",
+            "affected": [
+                {
+                    "range": "< 9.5.5",
+                    "patched": [
+                        "9.5.5"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-jvwm-gq36-3v7v",
+            "cve": "CVE-2021-21324",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Insecure Direct Object Reference (IDOR) on \"Solutions\"",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-jvwm-gq36-3v7v",
+            "affected": [
+                {
+                    "range": "< 9.5.4",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-qmw7-w2m4-rjwp",
+            "cve": "CVE-2021-21327",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Unsafe Reflection in getItemForItemtype()",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-qmw7-w2m4-rjwp",
+            "affected": [
+                {
+                    "range": "< 9.5.4",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-m574-f3jw-pwrf",
+            "cve": "CVE-2021-21325",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Stored XSS in budget type",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-m574-f3jw-pwrf",
+            "affected": [
+                {
+                    "range": "< 9.5.4",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-h4hj-mrpg-xfgx",
+            "cve": "CVE-2021-21313",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "XSS on tabs",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-h4hj-mrpg-xfgx",
+            "affected": [
+                {
+                    "range": "< 9.5.4",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-c7f6-3mr7-3rq2",
+            "cve": "CVE-2021-21312",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Stored XSS on documents",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-c7f6-3mr7-3rq2",
+            "affected": [
+                {
+                    "range": "< 9.5..4",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-2w7j-xgj7-3xgg",
+            "cve": "CVE-2021-21314",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "XSS injection on ticket update",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-2w7j-xgj7-3xgg",
+            "affected": [
+                {
+                    "range": "< 9.5.4",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-j4xj-4qmc-mmmx",
+            "cve": "CVE-2021-21258",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "XSS injection in ajax/kanban",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-j4xj-4qmc-mmmx",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-v3m5-r3mx-ff9j",
+            "cve": "CVE-2021-21255",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "entities switch IDOR",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-v3m5-r3mx-ff9j",
+            "affected": [
+                {
+                    "range": "9.5.3",
+                    "patched": [
+                        "9.5.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-vmj9-cg56-p7wh",
+            "cve": "CVE-2021-21326",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Horizontal Privilege Escalation",
+            "published": "2021-03-02",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-vmj9-cg56-p7wh",
+            "affected": [
+                {
+                    "range": "<=9.5.3",
+                    "patched": []
+                }
+            ]
+        },
+        {
+            "id": "GHSA-qmw3-87hr-5wgx",
+            "cve": "CVE-2020-26212",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Any CalDAV calendars is read-only for every authenticated user",
+            "published": "2020-11-25",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-qmw3-87hr-5wgx",
+            "affected": [
+                {
+                    "range": "9.5.0",
+                    "patched": []
+                }
+            ]
+        },
+        {
+            "id": "GHSA-wq38-gwxp-8p5p",
+            "cve": "CVE-2020-27662",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Insecure Direct Object Reference on ajax/comments.php",
+            "published": "2020-11-25",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-wq38-gwxp-8p5p",
+            "affected": [
+                {
+                    "range": "<9.5.3",
+                    "patched": [
+                        "9.5.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-pqfv-4pvr-55r4",
+            "cve": "CVE-2020-27663",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Insecure Direct Object Reference on ajax/getDropdownValue.php",
+            "published": "2020-11-25",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-pqfv-4pvr-55r4",
+            "affected": [
+                {
+                    "range": "<9.5.3",
+                    "patched": [
+                        "9.5.3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-x9hg-j29f-wvvv",
+            "cve": "CVE-2020-15217",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "leakage issue with knowledge base",
+            "published": "2020-10-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-x9hg-j29f-wvvv",
+            "affected": [
+                {
+                    "range": ">= 9.5.0",
+                    "patched": [
+                        "9.5.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-prvh-9m4h-4m79",
+            "cve": "CVE-2020-15177",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "GLPI Unauthenticated Stored XSS",
+            "published": "2020-10-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-prvh-9m4h-4m79",
+            "affected": [
+                {
+                    "range": ">= 0.65",
+                    "patched": [
+                        "9.5.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-rm52-jx9h-rwcp",
+            "cve": "CVE-2020-15175",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Unauthenticated File Deletion",
+            "published": "2020-10-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-rm52-jx9h-rwcp",
+            "affected": [
+                {
+                    "range": ">= 0.70",
+                    "patched": [
+                        "9.5.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-x93w-64x9-58qw",
+            "cve": "CVE-2020-15176",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Multiple SQL Injections Stemming From isNameQuoted()",
+            "published": "2020-10-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-x93w-64x9-58qw",
+            "affected": [
+                {
+                    "range": ">= 0.68",
+                    "patched": [
+                        "9.5.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-jwpv-7m4h-5gvc",
+            "cve": "CVE-2020-15226",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "SQL Injection in Search API",
+            "published": "2020-10-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-jwpv-7m4h-5gvc",
+            "affected": [
+                {
+                    "range": "> 9.1",
+                    "patched": [
+                        "9.5.2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-qv6w-68gq-wx2v",
+            "cve": "CVE-2020-15108",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Not escaped fields in clone feature conduct to SQL injection",
+            "published": "2020-07-16",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-qv6w-68gq-wx2v",
+            "affected": [
+                {
+                    "range": "9.5.0",
+                    "patched": [
+                        "9.5.1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-7xwm-4vjr-jvqh",
+            "cve": "CVE-2020-11031",
+            "severity": "low",
+            "cvss": null,
+            "summary": "Improve encryption algorithm",
+            "published": "2020-07-07",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-7xwm-4vjr-jvqh",
+            "affected": [
+                {
+                    "range": "all",
+                    "patched": [
+                        "9.5.0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-3xxh-f5p2-jg3h",
+            "cve": "CVE-2020-11062",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Reflexive XSS in Dropdown menus",
+            "published": "2020-05-11",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-3xxh-f5p2-jg3h",
+            "affected": [
+                {
+                    "range": "> 0.68.1",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-cvvq-3fww-5v6f",
+            "cve": "CVE-2020-11060",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Remote Code Execution (RCE) via the backup functionality.",
+            "published": "2020-05-11",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-cvvq-3fww-5v6f",
+            "affected": [
+                {
+                    "range": "0.85",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-gxv6-xq9q-37hg",
+            "cve": "CVE-2020-11034",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "bypass of manageRedirect",
+            "published": "2020-05-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-gxv6-xq9q-37hg",
+            "affected": [
+                {
+                    "range": "< 9.4.6",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-w7q8-58qp-vmpf",
+            "cve": "CVE-2020-11035",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "weak csrf tokens",
+            "published": "2020-05-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-w7q8-58qp-vmpf",
+            "affected": [
+                {
+                    "range": "> 0.83.3",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-3g3h-rwhr-7385",
+            "cve": "CVE-2020-11036",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Some XSS",
+            "published": "2020-05-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-3g3h-rwhr-7385",
+            "affected": [
+                {
+                    "range": "<9.4.6",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-rf54-3r4w-4h55",
+            "cve": "CVE-2020-11033",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Able to read any token through API user endpoint",
+            "published": "2020-05-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-rf54-3r4w-4h55",
+            "affected": [
+                {
+                    "range": "> 9.1",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-344w-34h9-wwhh",
+            "cve": "CVE-2020-11032",
+            "severity": "high",
+            "cvss": null,
+            "summary": "SQL injection on addme_observer and addme_assign",
+            "published": "2020-05-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-344w-34h9-wwhh",
+            "affected": [
+                {
+                    "range": "9.4.5",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-j222-j9mf-h6j9",
+            "cve": "CVE-2020-5248",
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Public GLPIKEY can be used to decrypt any data",
+            "published": "2020-05-05",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-j222-j9mf-h6j9",
+            "affected": [
+                {
+                    "range": "all",
+                    "patched": [
+                        "9.4.6"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-vqg5-7m7m-m3rw",
+            "cve": "",
+            "severity": "low",
+            "cvss": null,
+            "summary": "XSS issue in rich text field",
+            "published": "2019-09-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-vqg5-7m7m-m3rw",
+            "affected": [
+                {
+                    "range": "<9.4.3",
+                    "patched": [
+                        "9.4.4"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "GHSA-47hq-pfrr-jh5q",
+            "cve": "CVE-2019-14666",
+            "severity": "high",
+            "cvss": null,
+            "summary": "Account takeover vulnerability",
+            "published": "2019-09-24",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-47hq-pfrr-jh5q",
+            "affected": [
+                {
+                    "range": "<9.4.3",
+                    "patched": [
+                        "9.4.4"
+                    ]
+                }
+            ]
         }
     ],
     "plugins": {
@@ -2436,6 +4329,5 @@
                 }
             ]
         }
-    },
-    "partial": true
+    }
 }
