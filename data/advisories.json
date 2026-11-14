@@ -1,5 +1,5 @@
 {
-    "generated": "2026-11-08",
+    "generated": "2026-11-14",
     "source": "GitHub Security Advisories",
     "glpi": [
         {
@@ -235,7 +235,7 @@
             "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-753w-2942-4pxm",
             "affected": [
                 {
-                    "range": ">= 11.0.8",
+                    "range": "From 11.0.0 until 11.0.8",
                     "patched": [
                         "11.0.9"
                     ]
@@ -381,7 +381,7 @@
         },
         {
             "id": "GHSA-h34m-gqcf-25cp",
-            "cve": null,
+            "cve": "CVE-2026-128078",
             "severity": "medium",
             "cvss": null,
             "summary": "Unexpected access to followups/tasks/solutions generated from templates",
