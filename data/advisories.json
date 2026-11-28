@@ -1,7 +1,30 @@
 {
-    "generated": "2026-11-08",
+    "generated": "2026-11-28",
     "source": "GitHub Security Advisories",
     "glpi": [
+        {
+            "id": "GHSA-vvrg-vxmj-qhph",
+            "cve": null,
+            "severity": "medium",
+            "cvss": null,
+            "summary": "Administrator account deactivation by unauthorized user",
+            "published": "2026-11-16",
+            "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-vvrg-vxmj-qhph",
+            "affected": [
+                {
+                    "range": ">= 0.70, < 12.0.0",
+                    "patched": [
+                        "11.0.12"
+                    ]
+                },
+                {
+                    "range": ">= 12.0.0",
+                    "patched": [
+                        "12.0.1"
+                    ]
+                }
+            ]
+        },
         {
             "id": "GHSA-47mc-679g-2jrv",
             "cve": null,
@@ -235,7 +258,7 @@
             "url": "https://github.com/glpi-project/glpi/security/advisories/GHSA-753w-2942-4pxm",
             "affected": [
                 {
-                    "range": ">= 11.0.8",
+                    "range": "From 11.0.0 until 11.0.8",
                     "patched": [
                         "11.0.9"
                     ]
@@ -381,7 +404,7 @@
         },
         {
             "id": "GHSA-h34m-gqcf-25cp",
-            "cve": null,
+            "cve": "CVE-2026-128078",
             "severity": "medium",
             "cvss": null,
             "summary": "Unexpected access to followups/tasks/solutions generated from templates",
@@ -3897,6 +3920,40 @@
         "genericobject": {
             "repo": "pluginsGLPI/genericobject",
             "advisories": [
+                {
+                    "id": "GHSA-q5rg-ghpp-92cp",
+                    "cve": null,
+                    "severity": "high",
+                    "cvss": null,
+                    "summary": "Unauthenticated SQL injection",
+                    "published": "2026-11-16",
+                    "url": "https://github.com/pluginsGLPI/genericobject/security/advisories/GHSA-q5rg-ghpp-92cp",
+                    "affected": [
+                        {
+                            "range": "2.14.15",
+                            "patched": [
+                                "2.14.16"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "GHSA-5wjf-f35v-r98r",
+                    "cve": null,
+                    "severity": "critical",
+                    "cvss": null,
+                    "summary": "Unauthenticated Remote Code Execution via SQL Injection",
+                    "published": "2026-11-16",
+                    "url": "https://github.com/pluginsGLPI/genericobject/security/advisories/GHSA-5wjf-f35v-r98r",
+                    "affected": [
+                        {
+                            "range": "2.14.15",
+                            "patched": [
+                                "2.14.16"
+                            ]
+                        }
+                    ]
+                },
                 {
                     "id": "GHSA-6r3j-74pf-v7q5",
                     "cve": "CVE-2026-52728",
